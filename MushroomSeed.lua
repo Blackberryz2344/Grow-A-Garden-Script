@@ -2,11 +2,8 @@ local seedShop = game:GetService("ReplicatedStorage"):WaitForChild("SeedShop")
 local mushroomSeed = seedShop:FindFirstChild("Mushroom Seed")
 
 if mushroomSeed then
-    mushroomSeed.Value = math.huge
-    game:GetService("RunService").RenderStepped:Connect(function()
-        if mushroomSeed.Value ~= math.huge then
-            mushroomSeed.Value = math.huge
-        end
-    end)
+    print("Mushroom Seed encontrado!")
+    mushroomSeed.Value = 999999999
+else
+    print("Mushroom Seed não encontrado!")
 end
-
