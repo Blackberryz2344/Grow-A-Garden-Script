@@ -2,7 +2,7 @@ local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(1131.584, 503.039)
+frame.Size = UDim2.new(1000, 100)
 frame.Position = UDim2.new(0, 0)
 frame.BackgroundColor3 = Color3.new(1, 1, 1)
 frame.Parent = gui
@@ -15,8 +15,8 @@ botaoAtivar.Parent = frame
 
 local botaoDesativar = Instance.new("TextButton")
 botaoDesativar.Text = "Desativar"
-botaoDesativar.Size = UDim2.new(200, 50)
-botaoDesativar.Position = UDim2.new(0.0, 0.0)
+botaoDesativar.Size = UDim2.new(200, 200)
+botaoDesativar.Position = UDim2.new(0.0, 0.25)
 botaoDesativar.Parent = frame
 
 local scriptAtivado = false
