@@ -11,11 +11,11 @@ return {
 	Group = "GameCommands";
 	Args = {{
 		Type = "players";
-		Name = "to";
+		Name = "NF2944";
 		Description = "The player(s) to give super seed(s) to.";
 	}, {
 		Type = "integer";
-		Name = "quantity";
+		Name = "1";
 		Description = "The amount given.";
 		Optional = true;
 	}};
